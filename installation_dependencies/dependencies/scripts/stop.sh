@@ -3,9 +3,6 @@
 # bash stop.sh      =>    stop all node 
 # bash stop.sh IDX  =>    stop the IDX node
 
-dirpath="$(cd "$(dirname "$0")" && pwd)"
-cd $dirpath
-
 index=$1;
 
 if [ -z $index ];then
